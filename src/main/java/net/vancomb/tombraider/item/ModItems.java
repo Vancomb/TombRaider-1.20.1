@@ -19,17 +19,23 @@ public class ModItems {
 
     //public static final RegistryObject<Item> KAMIDOGU_ICON = ITEMS.register("kamidogu_icon", () -> new Item(new Item.Properties()));
 
+    //MAIN CATEGORY
+
     public static final RegistryObject<SurvivorPickaxeItem> SURVIVOR_PICKAXE = ITEMS.register("survivor_pickaxe",
-            () -> new SurvivorPickaxeItem(Tiers.IRON, 3, -2.6f, new Item.Properties()));
+            () -> new SurvivorPickaxeItem(Tiers.IRON, 3, -2.6f,
+                    new Item.Properties().rarity(Rarity.EPIC)));
 
-    //Music Discs
+    //MISC
 
+    // public static final RegistryObject<ArmorItem> VINTAGE_SPECS = ITEMS.register("vintage_specs", () -> new ArmorItem()
+
+    //MUSIC DISCS
 
     public static final RegistryObject<Item> TOMBRAIDER_OST_MUSIC_DISC  = ITEMS.register("tombraider_ost_music_disc",
-            () -> new RecordItem(6, ModSounds.TOMBRAIDER_OST, new Item.Properties().stacksTo(1),3920));
+            () -> new RecordItem(6, ModSounds.TOMBRAIDER_OST, new Item.Properties().stacksTo(1).rarity(Rarity.RARE),3920));
 
     public static final RegistryObject<Item> VENICE_VIOLINS_MUSIC_DISC  = ITEMS.register("venice_violins_music_disc",
-            () -> new RecordItem(6, ModSounds.VENICE_VIOLINS, new Item.Properties().stacksTo(1),3200));
+            () -> new RecordItem(6, ModSounds.VENICE_VIOLINS, new Item.Properties().stacksTo(1).rarity(Rarity.RARE),3200));
 
 
 

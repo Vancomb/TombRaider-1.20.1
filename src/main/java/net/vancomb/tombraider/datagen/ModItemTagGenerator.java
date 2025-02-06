@@ -23,7 +23,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.VENICE_VIOLINS_MUSIC_DISC.get())
                 .add(ModItems.TOMBRAIDER_OST_MUSIC_DISC.get());
-                        //ModItems.VENICE_VIOLINS_MUSIC_DISC.get();
+
 
 
 

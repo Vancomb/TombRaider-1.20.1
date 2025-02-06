@@ -1,0 +1,18 @@
+{
+  "tombraider_ost": {
+    "sounds": [
+      {
+        "name": "tombraider:tombraider_ost",
+        "stream": true
+      }
+    ]
+  },
+  "venice_violins": {
+    "sounds": [
+      {
+        "name": "tombraider:venice_violins",
+        "stream": true
+      }
+    ]
+  }
+}

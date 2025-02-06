@@ -1,34 +1,18 @@
 package net.vancomb.tombraider.item.custom;
-
-import net.minecraft.network.chat.Component;
-import net.minecraft.tags.ItemTags;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.level.Level;
-import org.jetbrains.annotations.NotNull;
 
-import javax.annotation.Nullable;
-import java.util.List;
 
 public class SurvivorPickaxeItem extends PickaxeItem {
+
+
     public SurvivorPickaxeItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
 
     }
-
-    @Override
-    public ItemStack getDefaultInstance() {
-        ItemStack stack = new ItemStack(this);
-        stack.enchant(Enchantments.BLOCK_EFFICIENCY,3);
-        return stack;
-    }
-
-
 }
 
-/*
+
+ /*
 
     //ITEM TOOLTIP
     @Override

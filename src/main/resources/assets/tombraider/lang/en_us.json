@@ -1,8 +1,12 @@
-{"creativetab.tombraider_tab": "Tomb Raider",
+{"creativetab.tombraider_tab":"Tomb Raider",
 
-"item.tombraider.survivor_pickaxe": "Survivor Pickaxe",
-"tooltip.tombraider.survivor_pickaxe.tooltip":  "Sturdy, sharp, and built for survival. Lara’s climbing pickaxe isn’t just for scaling cliffs—it’s a lifeline in the heat of adventure",
+"item.tombraider.survivor_pickaxe":"Survivor Pickaxe",
+"tooltip.tombraider.survivor_pickaxe.tooltip":"Sturdy, sharp, & built for survival. \nLara’s climbing pickaxe isn’t just for scaling cliffs—it’s a lifeline in the heat of adventure.",
 
+"item.tombraider.excalibur":"Excalibur",
+"tooltip.tombraider.excalibur.tooltip":"An artifact of immense power, said to be used by monarchs & nobles in their ascension to power.",
+
+"item.tombraider.vintage_specs":"Vintage Specs",
 
 "item.tombraider.tombraider_ost_music_disc":"Music Disc",
 "item.tombraider.tombraider_ost_music_disc.desc": "Tomb Raider OST - By Nathan McCree",

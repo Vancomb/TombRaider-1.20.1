@@ -1,11 +1,11 @@
 package net.vancomb.tombraider.item;
-
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vancomb.tombraider.TombRaider;
+import net.vancomb.tombraider.item.custom.ExcaliburItem;
 import net.vancomb.tombraider.item.custom.SurvivorPickaxeItem;
 import net.vancomb.tombraider.sound.ModSounds;
 
@@ -25,9 +25,14 @@ public class ModItems {
             () -> new SurvivorPickaxeItem(Tiers.IRON, 3, -2.6f,
                     new Item.Properties().rarity(Rarity.EPIC)));
 
+    public static final RegistryObject<ExcaliburItem> EXCALIBUR = ITEMS.register("excalibur",
+            () -> new ExcaliburItem(Tiers.NETHERITE,11 , -2.85f,
+                    new Item.Properties().rarity(Rarity.EPIC)));
+
     //MISC
 
-    // public static final RegistryObject<ArmorItem> VINTAGE_SPECS = ITEMS.register("vintage_specs", () -> new ArmorItem()
+    public static final RegistryObject<Item> VINTAGE_SPECS = ITEMS.register("vintage_specs",
+            () -> new ArmorItem(ModArmorMaterials.VINTAGE_SPECS, ArmorItem.Type.HELMET, new Item.Properties()));
 
     //MUSIC DISCS
 

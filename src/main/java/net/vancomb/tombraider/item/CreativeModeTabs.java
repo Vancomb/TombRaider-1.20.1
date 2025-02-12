@@ -21,7 +21,10 @@ public class CreativeModeTabs {
 
                         //Creative Tab Icon
                         //pOutput.accept(ModItems.KAMIDOGU_ICON.get()); //Can remove once actual items are listed.
+                        //Dual Pistols first item in Creative list.
                         pOutput.accept(ModItems.SURVIVOR_PICKAXE.get());
+                        pOutput.accept(ModItems.EXCALIBUR.get());
+                        pOutput.accept(ModItems.VINTAGE_SPECS.get());
                         pOutput.accept(ModItems.TOMBRAIDER_OST_MUSIC_DISC.get());
                         pOutput.accept(ModItems.VENICE_VIOLINS_MUSIC_DISC.get());
 
